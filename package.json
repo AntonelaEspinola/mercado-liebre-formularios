@@ -1,0 +1,22 @@
+{
+  "name": "mercado-liebre-formularios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonelaEspinola/mercado-liebre-formularios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonelaEspinola/mercado-liebre-formularios/issues"
+  },
+  "homepage": "https://github.com/AntonelaEspinola/mercado-liebre-formularios#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

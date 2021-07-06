@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mercado liebre</title>
+</head>
+
+<body class="home">
+    <header>
+        <div class="cabecera-no-mobile">
+            <div class="header-cabecera">
+                <img id="img-logo" src="/images/logo-mercado-liebre.svg" alt="Logo de mercado liebre">
+
+                <div id="input">
+                    <form action=""><input type="text" placeholder="Buscar productos, marcas y algo mas"><button><i
+                                class="fas fa-search"></i></button></form>
+                </div>
+            </div>
+            <p id="promo"><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito
+            </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Crea tu cuenta<i class="far fa-id-card"></i></a></li>
+                <li><a href="">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+    <main>
+        <!-- formulario -->
+        <form action="" method="POST">
+            <!-- nombre -->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <!-- apellido -->
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <!-- nombre de usuario -->
+            <label for="usuario">Nombre de usuari@</label>
+            <input type="text" id="usuario" name="usuario">
+            <!-- fecha de nacimiento -->
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" name="cumpleaños">
+            <!-- domicilio -->
+            <label for="domicilio">domicilio</label>
+            <input type="text" id="domicilio" name="domicilio">
+            <!-- perfil de usuario -->
+            <div class="perfil-usuario">
+            <label>Perfil del usuario</label>
+            <label for="comprar"><input type="radio" name="perfil-usuario" id="comprar">Comprar</label>
+            <label for="vender"><input type="radio" name="perfil-usuario"  id="vender">Vender</label>
+        </div>
+            <!-- categorias de interes -->
+            <div class="interes">
+                <label ><input type="checkbox" name="categoria-interes" value="electro">Electro</label>
+                <label ><input type="checkbox" name="categoria-interes" value="moda">Moda</label>
+                <label ><input type="checkbox" name="categoria-interes" value="hogar">Hogar</label>
+                <label ><input type="checkbox" name="categoria-interes" value="jugueteria">Jugueteria</label>
+                <label ><input type="checkbox" name="categoria-interes" value="vida-sana">Vida sana</label>
+            </div>
+            <!-- foto de usuario -->
+            <label for="img">Foto de usuario</label>
+            <input type="file" name="imagen" id="img">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="password" id="contraseña">
+            <label for="contraseña">Confirmar contraseña</label>
+            <input type="password" name="password" id="contraseña">
+            <button type="reset">Reiniciar formulario</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+
+
+    <footer>
+        <section>
+            <article>
+                <i class="fas fa-credit-card"></i>
+                <h4>Paga con tarjeta o en efectivo</h4>
+                <p>Con MercadoLiebreCash tenes cuotas sin interes con tarjeta o efectivo oen puntos de pagos. ¡Y siempre
+                    es seguro!</p>
+            </article>
+            <article>
+                <i class="fas fa-gift"></i>
+                <h4>Envio gratis desde los $2.500</h4>
+                <p>Solo por estar registrado en mercado liebre tenes envios gratis en miles de productos. Es un
+                    beneficio de mercado puntos</p>
+            </article>
+            <article>
+                <i class="fas fa-gift"></i>
+                <h4>Seguridad de principio a fin</h4>
+                <P>¿No te gusta? ¡Devolvelo! En mercado liebre no hay nada que no puedas hacer porque estas siempre
+                    protegid@</P>
+            </article>
+            <p>Copyright©1999-2020 Mercado Liebre S.R.L</p>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
