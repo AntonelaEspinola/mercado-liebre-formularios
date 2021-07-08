@@ -42,53 +42,18 @@
         </div>
 
     </header>
-    <main class="register">
-        <h1>Registrate</h1>
+    <main class="login">
+        <h1>Ingresa a tu cuenta</h1>
         <!-- formulario -->
         <!-- se que se debe usar post para hacer envio de datos pero de esa forma no me redirige al  home -->
         <form action="http://localhost:3030/" method="get">
-            <!-- nombre -->
-            <label class="subtitulo">Datos personales</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" minlength="3" required>
-            <!-- apellido -->
-            <input type="text" id="apellido" name="apellido" placeholder="Apellido" minlength="2" required>
             <!-- nombre de usuario -->
-            <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuari@" minlength="5" required>
-            <!-- fecha de nacimiento -->
-            <label for="nacimiento" class="subtitulo">Fecha de nacimiento</label>
-            <input type="date" id="nacimiento" name="cumpleaños" required>
-            <!-- domicilio -->
-            <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio" minlength="2" required>
-            <!-- perfil de usuario -->
-            <div class="perfil-usuario">
-                <label class="subtitulo">Perfil del usuario</label>
-                <label for="comprar"><input type="radio" name="perfil-usuario" id="comprar">Comprar</label>
-                <label for="vender"><input type="radio" name="perfil-usuario" id="vender">Vender</label>
-            </div>
-            <!-- categorias de interes -->
-            <div class="interes">
-                <label class="subtitulo">Intereses</label>
-                <label><input type="checkbox" name="categoria-interes" value="electro">Electro</label>
-                <label><input type="checkbox" name="categoria-interes" value="moda">Moda</label>
-                <label><input type="checkbox" name="categoria-interes" value="hogar">Hogar</label>
-                <label><input type="checkbox" name="categoria-interes" value="jugueteria">Jugueteria</label>
-                <label><input type="checkbox" name="categoria-interes" value="vida-sana">Vida sana</label>
-            </div>
-            <!-- foto de usuario -->
-            <label for="img" class="subtitulo">Foto de usuario</label>
-            <input type="file" name="imagen" id="img">
-            <label for="contraseña" class="subtitulo">Contraseña</label>
-            <input type="password" name="password" id="contraseña" placeholder="Contraseña" minlength="8" required>
-            <input type="password" name="password" id="contraseña" placeholder="Confirmar contraseña" minlength="8"
-                required>
-            <div class="botones">
-                <button type="reset" id="reset">Reiniciar formulario</button>
-                <button type="submit" id="submit">Enviar</button>
-            </div>
+            <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" minlength="5" required>
+            <!-- contraseña -->
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" minlength="8" required>
+            <button type="submit">Ingresar</button>
         </form>
     </main>
-
-
 
     <footer>
         <section>
